@@ -1,0 +1,85 @@
+:root{
+    --main-color:#aaa;
+    --box-color:#EEE;
+}
+*{
+    box-sizing: border-box;
+    font-family: arial;
+}
+header h3{
+    color: var(--main-color);
+    font-size:30px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    
+}
+.line{
+    width: 80%;
+    border-top: solid black 1px;
+    margin: 15px auto;
+    padding: 20px 15px;
+}
+.form-back{
+    background-color:var(--box-color);
+}
+.form-back p{
+    color: #333;
+}
+.book-mark{
+    padding-bottom: 50px;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+}
+.alert{
+    padding: 5px;
+    margin: 10px;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    color: #6d0000 !important;
+    background-color: #ffb2b2;
+    border: 1px solid #6d0000;
+    display: none;
+}
+.book-container{
+    border-bottom: solid black 1px;
+    width: 90%;
+}
+.booklist{
+    background-image: linear-gradient(rgb(238, 238, 238), rgb(255, 255, 255));
+    margin: 10px 0px;
+    padding: 20px;
+}
+.btn-primary{
+    background-color: rgb(17, 103, 196);
+    border-color: rgb(17, 103, 196);
+}
+.btn-danger{
+    background-color: rgb(145, 0, 4);
+    border-color: rgb(145, 0, 4);
+}
+footer{
+    padding-left: 50px;
+}
+footer p{
+    color: var(--main-color);
+    margin-left: 40px;
+}
+.btn:hover{
+    box-shadow: 2px 5px 3px 0px #888;
+}
+.btn-danger:hover{
+    background-color: #510d0e;
+    border: 1px solid #510d0e;
+}
+.btn-primary:hover{
+    background-color: #0a3f77;
+    border: 1px solid #0a3f77;
+}
